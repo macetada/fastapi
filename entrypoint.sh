@@ -13,6 +13,5 @@ uvicorn main:app \
   --backlog 10000 \
   --timeout-keep-alive 65 \
   --no-access-log \
-  --lifespan off \
   --host 0.0.0.0 \
   --port 80
