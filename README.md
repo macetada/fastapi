@@ -6,14 +6,14 @@ Repositório para macetar o FastAPI com requests.
 
 ```bash
 docker build -t fastapi .
-docker run --rm -p 8081:80 fastapi
+docker run --rm -it -p 8081:80 fastapi
 ```
 
 ou:
 
 ```bash
 docker pull ghcr.io/macetada/fastapi:main
-docker run --rm -p 8081:80 ghcr.io/macetada/fastapi:main
+docker run --rm -it -p 8081:80 ghcr.io/macetada/fastapi:main
 ```
 
 > Este procedimento deve ser feito numa máquina servidora ou num cluster.
